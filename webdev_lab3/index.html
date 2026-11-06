@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ritesh - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">My Portfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hi, I am</h1>
+      <div class="animated-title">Full Stack Developer</div>
+      <p>Building modern web applications with MERN stack.</p>
+    </div>
+    <div class="hero-avatar">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="100" fill="#cce0ff" />
+        <!-- Suit Body -->
+        <path d="M 40 180 Q 100 130 160 180 L 170 200 L 30 200 Z" fill="#2c3e50" />
+        <!-- Shirt -->
+        <polygon points="85,140 115,140 100,185" fill="#ffffff" />
+        <!-- Tie -->
+        <polygon points="96,140 104,140 106,170 100,180 94,170" fill="#e74c3c" />
+        <!-- Neck -->
+        <rect x="88" y="115" width="24" height="30" fill="#f1c40f" opacity="0.3" />
+        <!-- Face -->
+        <circle cx="100" cy="90" r="40" fill="#f5cba7" />
+        <!-- Hair -->
+        <path d="M 60 90 Q 60 50 100 50 Q 140 50 140 90 Q 130 60 100 65 Q 70 60 60 90 Z" fill="#2c3e50" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-text">
+      Hello! My name is <strong>Ritesh</strong>, and I am currently learning web development. This is my first portfolio website where I showcase my passion for creating interactive and responsive web pages. I am a student at KR Mangalam University, pursuing a degree, and I am deeply interested in technology and coding. I love exploring new skills every day, and I always aim to improve my knowledge in the field of web development. With a hardworking and consistent mindset, I am determined to grow as a developer and build creative projects that make a real impact.
+    </div>
+  </section>
+
+  <!-- My Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Beginner</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Beginner</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Learning</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple HTML &amp; CSS webpage.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Another awesome mini project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <form action="#" method="POST" onsubmit="event.preventDefault();">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="write your message" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2026 Ritesh. All rights reserved.</p>
+  </footer>
+
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top">&#8593; Back to Top</a>
+
+</body>
+</html>
